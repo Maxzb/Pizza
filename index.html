@@ -8,6 +8,8 @@
 		<meta name="keywords" content="">
 		<link rel="shortcut icon" href="favicon.png" type="image/png">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
 		<link rel="stylesheet" href="css/null.css">
 		<link rel="stylesheet" href="fonts/fonts.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -18,25 +20,61 @@
 		<div class="header-block">
 			<div class="container">
 				<div class="header-block__main">
-					<div class="logo"><a href="#"><img src="img/header/logo.png" alt="Пицца на дом"></a></div>
+					<div><a href="#" class="logo"><span class="tomate-cirlce"><img src="img/header/logo_tomate.svg" alt="Пицца на дом" class="tomate"></span><p class="logo-text"><span class="pizza-gold">Пицца</span> на дом</p></a></div>
 					<nav class="header-block__nav nav">
 						<ul class="nav__list">
-							<li><a href="#" class="nav__item">Начало</a></li>
-							<li><a href="#" class="nav__item">Выбрать пиццу</a></li>
-							<li><a href="#" class="nav__item">Выбрать закуску</a></li>
-							<li><a href="#" class="nav__item">Выбрать напитки</a></li>
+							<li><a href="#" class="nav__item"><span class="nav__arrow"><i class="fas fa-chevron-right fa-chevron-right--nav"></i></span>Начало</a></li>
+							<li><a href="#" class="nav__item"><span class="nav__arrow"><i class="fas fa-chevron-right fa-chevron-right--nav"></i></span>Выбрать пиццу</a></li>
+							<li><a href="#" class="nav__item"><span class="nav__arrow"><i class="fas fa-chevron-right fa-chevron-right--nav"></i></span>Выбрать закуску</a></li>
+							<li><a href="#" class="nav__item"><span class="nav__arrow"><i class="fas fa-chevron-right fa-chevron-right--nav"></i></span>Выбрать напитки</a></li>
 						</ul>
 					</nav>
 					<div class="block-phone">
 						<div class="block-phone__text">Заказать по телефону:</div>
-						<a href="tel:+7495923-35-74" class="block-phone__phone">+7 (495) <span>923-35-74</span></a>
+						<a href="tel:+7495923-35-74" class="block-phone__phone"><i class="fas fa-phone"></i></i>+7 (495) <span>923-35-74</span></a>
 					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="offer-main-block">
+			<div class="offer-block owl-carousel" id="carousel1">
+				<div class="offer-block__item">
+					<div class="left-col">
+						<div class="left-col__title">Пицца Неаполитана</div>
+						<div class="left-col__text">Великолепная, пикантная, горячая итальянская пицца с аппетитным французским сыром.</div>
+						<div class="left-col__btn btn"><i class="fas fa-check"></i>Выбрать</div>
+					</div>
+					<div class="right-col">
+						<img src="img/header/pizza.png" alt="" class="right-col__pizza-img">
+					</div>
+				</div>
+				<div class="offer-block__item">
+						<div class="left-col">
+								<div class="left-col__title">Пицца Неаполитана</div>
+								<div class="left-col__text">Великолепная, пикантная, горячая итальянская пицца с аппетитным французским сыром.</div>
+								<div class="left-col__btn btn"><i class="fas fa-check"></i>Выбрать</div>
+							</div>
+							<div class="right-col">
+								<img src="img/header/pizza2.png" alt="" class="right-col__pizza-img">
+							</div>
+				</div>
+				<div class="offer-block__item">
+						<div class="left-col">
+								<div class="left-col__title">Пицца Неаполитана</div>
+								<div class="left-col__text">Великолепная, пикантная, горячая итальянская пицца с аппетитным французским сыром.</div>
+								<div class="left-col__btn btn"><i class="fas fa-check"></i>Выбрать</div>
+							</div>
+							<div class="right-col">
+								<img src="img/header/pizza3.png" alt="" class="right-col__pizza-img">
+							</div>
 				</div>
 			</div>
 		</div>
 	</header>
 
-
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>

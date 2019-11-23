@@ -20,3 +20,13 @@
 	font-weight: 400;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Nautilus Pompilius';
+	src: url('NautilusPompilius.eot');
+	src: local('Nautilus Pompilius Regular'), local('NautilusPompilius'),
+		url('NautilusPompilius.eot?#iefix') format('embedded-opentype'),
+		url('NautilusPompilius.woff') format('woff'),
+		url('NautilusPompilius.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
