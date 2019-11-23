@@ -1,0 +1,81 @@
+/* MAIN */
+* {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header-block {
+  width: 100vw;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.header-block__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__item {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-right: 45px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.logo {
+  width: 133px;
+  height: 50px;
+  opacity: 1;
+}
+
+.block-phone__text {
+  opacity: 0.35;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 1.68px;
+}
+
+.block-phone__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 177px;
+  height: 22px;
+  color: #fff;
+  font-family: "Roboto+Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  white-space: pre;
+}
+
+.block-phone__phone span {
+  display: block;
+  font-family: "Roboto+Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
