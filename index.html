@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
 		<link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+		<link rel="stylesheet" href="/css/scroll/jquery.mCustomScrollbar.min.css">
 		<link rel="stylesheet" href="css/null.css">
 		<link rel="stylesheet" href="fonts/fonts.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -46,7 +47,7 @@
 						<div class="left-col__btn btn"><i class="fas fa-check"></i>Выбрать</div>
 					</div>
 					<div class="right-col">
-						<img src="img/header/pizza.png" alt="" class="right-col__pizza-img">
+						<img src="img/header/pizza.png" alt="Пицца Неаполитана" class="right-col__pizza-img">
 					</div>
 				</div>
 				<div class="offer-block__item">
@@ -56,7 +57,7 @@
 								<div class="left-col__btn btn"><i class="fas fa-check"></i>Выбрать</div>
 							</div>
 							<div class="right-col">
-								<img src="img/header/pizza2.png" alt="" class="right-col__pizza-img">
+								<img src="img/header/pizza2.png" alt="Пицца Морская" class="right-col__pizza-img">
 							</div>
 				</div>
 				<div class="offer-block__item">
@@ -66,7 +67,7 @@
 								<div class="left-col__btn btn"><i class="fas fa-check"></i>Выбрать</div>
 							</div>
 							<div class="right-col">
-								<img src="img/header/pizza3.png" alt="" class="right-col__pizza-img">
+								<img src="img/header/pizza3.png" alt="Пицца Ассорти" class="right-col__pizza-img">
 							</div>
 				</div>
 			</div>
@@ -216,15 +217,218 @@
 				<div class="container block-snacks">
 					<div class="section-title section-title--white">Выбрать закуски</div>
 					<div class="section-desc">Не забудьте выбрать свежие закуски и салаты от нашего шеф-повара, которые гармонично дополнят ваше меню сегодня.</div>
-					<div class="block-snacks-carousel">
+					<div class="block-snacks-carousel owl-carousel" id="carousel3">
+						<div class="block-snacks-item">
+							<img src="img/snacks/01.jpg" alt="" class="block-snacks-item__img">
+								<div class="block-snacks-item__circle"><p class="circle__opt"><span>125</span> р.<br><span>100</span> гр.</p></div>
+								<div class="block-snacks-item__title">салат греческий</div>
+								<div class="block-snacks-item__offer">Лучшее дополнение к любому столу из свежих овощей</div>
+								<div class="block-snacks-item__ing"><span>Состав: </span>сыр, грибы, чеснок, острый перец, еще длинное наименование</div>
+								<div class="block-snacks-item__btn"><i class="fas fa-check"></i>Выбрать</div>
+						</div>
+						<div class="block-snacks-item">
+							<img src="img/snacks/02.jpg" alt="" class="block-snacks-item__img">
+								<div class="block-snacks-item__circle"><p class="circle__opt"><span>125</span> р.<br><span>100</span> гр.</p></div>
+								<div class="block-snacks-item__title">салат монтекристо</div>
+								<div class="block-snacks-item__offer">Лучшее дополнение к любому столу из свежих овощей</div>
+								<div class="block-snacks-item__ing"><span>Состав: </span>сыр, грибы, чеснок, острый перец, еще длинное наименование</div>
+								<div class="block-snacks-item__btn"><i class="fas fa-check"></i>Выбрать</div>
+						</div>
+						<div class="block-snacks-item">
+							<img src="img/snacks/03.jpg" alt="" class="block-snacks-item__img">
+								<div class="block-snacks-item__circle"><p class="circle__opt"><span>125</span> р.<br><span>100</span> гр.</p></div>
+								<div class="block-snacks-item__title">салат оливье</div>
+								<div class="block-snacks-item__offer">Лучшее дополнение к любому столу из свежих овощей</div>
+								<div class="block-snacks-item__ing"><span>Состав: </span>сыр, грибы, чеснок, острый перец, еще длинное наименование</div>
+								<div class="block-snacks-item__btn"><i class="fas fa-check"></i>Выбрать</div>
+						</div>
+						<div class="block-snacks-item">
+							<img src="img/snacks/04.jpg" alt="" class="block-snacks-item__img">
+								<div class="block-snacks-item__circle"><p class="circle__opt"><span>125</span> р.<br><span>100</span> гр.</p></div>
+								<div class="block-snacks-item__title">салат греческий</div>
+								<div class="block-snacks-item__offer">Лучшее дополнение к любому столу из свежих овощей</div>
+								<div class="block-snacks-item__ing"><span>Состав: </span>сыр, грибы, чеснок, острый перец, еще длинное наименование</div>
+								<div class="block-snacks-item__btn"><i class="fas fa-check"></i>Выбрать</div>
+						</div>
+					<!--  -->
+						<div class="block-snacks-item">
+							<img src="img/snacks/01.jpg" alt="" class="block-snacks-item__img">
+								<div class="block-snacks-item__circle"><p class="circle__opt"><span>125</span> р.<br><span>100</span> гр.</p></div>
+								<div class="block-snacks-item__title">салат греческий</div>
+								<div class="block-snacks-item__offer">Лучшее дополнение к любому столу из свежих овощей</div>
+								<div class="block-snacks-item__ing"><span>Состав: </span>сыр, грибы, чеснок, острый перец, еще длинное наименование</div>
+								<div class="block-snacks-item__btn"><i class="fas fa-check"></i>Выбрать</div>
+						</div>
+						<div class="block-snacks-item">
+							<img src="img/snacks/02.jpg" alt="" class="block-snacks-item__img">
+								<div class="block-snacks-item__circle"><p class="circle__opt"><span>125</span> р.<br><span>100</span> гр.</p></div>
+								<div class="block-snacks-item__title">салат монтекристо</div>
+								<div class="block-snacks-item__offer">Лучшее дополнение к любому столу из свежих овощей</div>
+								<div class="block-snacks-item__ing"><span>Состав: </span>сыр, грибы, чеснок, острый перец, еще длинное наименование</div>
+								<div class="block-snacks-item__btn"><i class="fas fa-check"></i>Выбрать</div>
+						</div>
+						<div class="block-snacks-item">
+							<img src="img/snacks/03.jpg" alt="" class="block-snacks-item__img">
+								<div class="block-snacks-item__circle"><p class="circle__opt"><span>125</span> р.<br><span>100</span> гр.</p></div>
+								<div class="block-snacks-item__title">салат оливье</div>
+								<div class="block-snacks-item__offer">Лучшее дополнение к любому столу из свежих овощей</div>
+								<div class="block-snacks-item__ing"><span>Состав: </span>сыр, грибы, чеснок, острый перец, еще длинное наименование</div>
+								<div class="block-snacks-item__btn"><i class="fas fa-check"></i>Выбрать</div>
+						</div>
+						<div class="block-snacks-item">
+							<img src="img/snacks/04.jpg" alt="" class="block-snacks-item__img">
+								<div class="block-snacks-item__circle"><p class="circle__opt"><span>125</span> р.<br><span>100</span> гр.</p></div>
+								<div class="block-snacks-item__title">салат греческий</div>
+								<div class="block-snacks-item__offer">Лучшее дополнение к любому столу из свежих овощей</div>
+								<div class="block-snacks-item__ing"><span>Состав: </span>сыр, грибы, чеснок, острый перец, еще длинное наименование</div>
+								<div class="block-snacks-item__btn"><i class="fas fa-check"></i>Выбрать</div>
+						</div>
+					<!--  -->
+						<div class="block-snacks-item">
+							<img src="img/snacks/01.jpg" alt="" class="block-snacks-item__img">
+								<div class="block-snacks-item__circle"><p class="circle__opt"><span>125</span> р.<br><span>100</span> гр.</p></div>
+								<div class="block-snacks-item__title">салат греческий</div>
+								<div class="block-snacks-item__offer">Лучшее дополнение к любому столу из свежих овощей</div>
+								<div class="block-snacks-item__ing"><span>Состав: </span>сыр, грибы, чеснок, острый перец, еще длинное наименование</div>
+								<div class="block-snacks-item__btn"><i class="fas fa-check"></i>Выбрать</div>
+						</div>
+						<div class="block-snacks-item">
+							<img src="img/snacks/02.jpg" alt="" class="block-snacks-item__img">
+								<div class="block-snacks-item__circle"><p class="circle__opt"><span>125</span> р.<br><span>100</span> гр.</p></div>
+								<div class="block-snacks-item__title">салат монтекристо</div>
+								<div class="block-snacks-item__offer">Лучшее дополнение к любому столу из свежих овощей</div>
+								<div class="block-snacks-item__ing"><span>Состав: </span>сыр, грибы, чеснок, острый перец, еще длинное наименование</div>
+								<div class="block-snacks-item__btn"><i class="fas fa-check"></i>Выбрать</div>
+						</div>
+						<div class="block-snacks-item">
+							<img src="img/snacks/03.jpg" alt="" class="block-snacks-item__img">
+								<div class="block-snacks-item__circle"><p class="circle__opt"><span>125</span> р.<br><span>100</span> гр.</p></div>
+								<div class="block-snacks-item__title">салат оливье</div>
+								<div class="block-snacks-item__offer">Лучшее дополнение к любому столу из свежих овощей</div>
+								<div class="block-snacks-item__ing"><span>Состав: </span>сыр, грибы, чеснок, острый перец, еще длинное наименование</div>
+								<div class="block-snacks-item__btn"><i class="fas fa-check"></i>Выбрать</div>
+						</div>
+						<div class="block-snacks-item">
+							<img src="img/snacks/04.jpg" alt="" class="block-snacks-item__img">
+								<div class="block-snacks-item__circle"><p class="circle__opt"><span>125</span> р.<br><span>100</span> гр.</p></div>
+								<div class="block-snacks-item__title">салат греческий</div>
+								<div class="block-snacks-item__offer">Лучшее дополнение к любому столу из свежих овощей</div>
+								<div class="block-snacks-item__ing"><span>Состав: </span>сыр, грибы, чеснок, острый перец, еще длинное наименование</div>
+								<div class="block-snacks-item__btn"><i class="fas fa-check"></i>Выбрать</div>
+						</div>
 						
 					</div>
 				</div>
 		</section>
+		<section class="section-drinks">
+				<div class="arrows-down"><i class="fas fa-angle-double-down"></i></div>
+				<div class="container block-drinks">
+					<div class="section-title">Выбрать напитки</div>
+					<div class="section-desc section-desc--black">Что может быть лучше освежающего газированного напитка в дополнение к горячей ароматной пицце.</div>
+					<div class="block-drinks-carousel owl-carousel" id="carousel4">
+							<div class="block-drinks-item">
+								<div class="block-drinks-item__img"><img src="img/drinks/02.png" alt="Кока-кола"></div>
+								<div class="block-drinks-item__title">Кока-кола, 1,5 л.</div>
+								<div class="block-drinks-item__price">86 руб.</div>
+								<div class="btn btn__block-drinks-item"><i class="fas fa-check"></i>Выбрать</div>
+							</div>
+							<div class="block-drinks-item">
+								<div class="block-drinks-item__img"><img src="img/drinks/02.png" alt="Кока-кола"></div>
+								<div class="block-drinks-item__title">Спрайт, 1,5 л.</div>
+								<div class="block-drinks-item__price">86 руб.</div>
+								<div class="btn btn__block-drinks-item"><i class="fas fa-check"></i>Выбрать</div>
+							</div>
+							<div class="block-drinks-item">
+								<div class="block-drinks-item__img"><img src="img/drinks/02.png" alt="Кока-кола"></div>
+								<div class="block-drinks-item__title">Швепс, 1,5 л.</div>
+								<div class="block-drinks-item__price">86 руб.</div>
+								<div class="btn btn__block-drinks-item"><i class="fas fa-check"></i>Выбрать</div>
+							</div>
+							<div class="block-drinks-item">
+									<div class="block-drinks-item__img"><img src="img/drinks/02.png" alt="Кока-кола"></div>
+									<div class="block-drinks-item__title">Кока-кола, 1,5 л.</div>
+									<div class="block-drinks-item__price">86 руб.</div>
+									<div class="btn btn__block-drinks-item"><i class="fas fa-check"></i>Выбрать</div>
+								</div>
+								<div class="block-drinks-item">
+									<div class="block-drinks-item__img"><img src="img/drinks/02.png" alt="Кока-кола"></div>
+									<div class="block-drinks-item__title">Спрайт, 1,5 л.</div>
+									<div class="block-drinks-item__price">86 руб.</div>
+									<div class="btn btn__block-drinks-item"><i class="fas fa-check"></i>Выбрать</div>
+								</div>
+								<div class="block-drinks-item">
+									<div class="block-drinks-item__img"><img src="img/drinks/02.png" alt="Кока-кола"></div>
+									<div class="block-drinks-item__title">Швепс, 1,5 л.</div>
+									<div class="block-drinks-item__price">86 руб.</div>
+									<div class="btn btn__block-drinks-item"><i class="fas fa-check"></i>Выбрать</div>
+								</div>
+					</div>
+				</div>
+		</section>
+		<section class="section-delpay">
+			<div class="arrows-down"><i class="fas fa-angle-double-down"></i></div>
+			<div class="container delpay-block">
+				<div class="section-title section-title--white">Доставка и оплата</div>
+				<div class="section-desc">Не зависимо от того, какой сейчас час, какая погода и как далеко вы 					живете - наша оперативная доставка с радостью привезет вам заказ в любое время и по любому адресу г. Москвы.</div>
+			</div>
+		</section>
+		<section class="section-addrtime">
+				<div class="container addrtime-block">
+					<div class="addrtime-block-col">
+						<div class="section-title">Адрес и время доставки</div>
+						<div class="section-desc section-desc--black">Пожалуйста, выберите удобную дату и время доставки, введите ваш полный адрес и телефон, чтобы мы могли убедиться в том, что ваш заказ нашел вас:</div>
+						
+						<div class="block-form">
+								<form action="send.php" method="post" class="form">
+									<div class="form-group">
+										<label for="date">Дата доставки</label><br>
+										<input type="date" id="date" name="date" placeholder="" class="input_date input-size" required checked
+										>
+									</div>
+									<div class="form-group">
+										<label for="time">Время доставки</label><br>
+										<input type="time" id="time" name="time" placeholder="" class="input_time input-size" required>
+									</div>
+									<div class="form-group">
+										<label for="name">Ваше имя:</label><br>
+										<input type="text" id="name" name="name" placeholder="" class="input_name input-size" required>
+									</div>
+									<div class="form-group">
+										<label for="phone">Ваш телефон:</label><br>
+										<input type="text" id="phone" name="phone" placeholder="" class="input_phone input-size" required>
+									</div>
+									<div class="form-group">
+										<label for="address">Адрес доставки:</label><br>
+										<input type="text" id="address" name="address" placeholder="" class="input_address" required>
+									</div>
+									<div class="form-group">
+										<label for="comment">Комментарий к заказу:</label><br>
+										<textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+									</div>
+								</form>
+		
+						</div>
+							
+					</div>
+					<div class="order-block">
+						<div class="order-block__inner-block">
+							<div class="inner-block__title"><span>ваш</span> заказ</div>
+							<div class="inner-block__order-list mCustomScrollbar"></div>
+							<div class="inner-block__sum">итого: <span id="sum">0<p> руб.</p></span></div>
+							<div class="inner-block__btns">
+								<button class="order-block__bnt-reset"><i class="fas fa-times"></i>Сбросить</button>
+								<button class="btn order-block__btn"><i class="fas fa-check"></i>Оформить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
 	</main>
-
+	
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
