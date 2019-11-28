@@ -170,23 +170,45 @@ ul li
    font-weight: 400
    line-height: 26px
    margin-bottom: 39px
-.btn
+.btn,
+.block-snacks-item__btn
+   position: relative
    display: inline-block
    width: 165px
    height: 46px
-   color: #fff
-   font-size: 14px
-   font-weight: 700
+   color: #ffffff
    line-height: 26px
    background-color: $gl
    text-align: center
    line-height: 46px
-   text-transform: uppercase
    cursor: pointer
    transition: .2s
-   &:hover
+   & span
+      color: #fff
+      font-size: 14px
+      font-weight: 700
+      text-transform: uppercase
+      position: relative
+      z-index: 5
+   &:after
+      content: ''
+      width: 0
+      position: absolute
+      height: 100%
+      left: 50%
+      top: 0
       background-color: $g
-      transition: .2s
+      transition: .3s
+   &:hover
+      background-color: 
+      transition:
+      &:after
+         transition: .3s
+         left: 0
+         width: 100%
+   & .fas
+      position: relative
+      z-index: 5
 .fa-check
    font-size: 12px
    margin-right: 8px
@@ -503,9 +525,6 @@ ul li
    text-transform: uppercase
    cursor: pointer
    transition: .2s
-   &:hover
-      background-color: $g
-      transition: .2s
 
 /* NAV block-snacks */
 .block-snacks-carousel .owl-nav
@@ -849,7 +868,7 @@ textarea
    display: flex
    flex-direction: column
 .soc-link:hover
-   color: $g
+   color: $gl
    transition: .2s
 .footer-container__social-block span
    display: inline-block

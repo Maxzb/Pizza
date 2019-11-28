@@ -27,9 +27,9 @@ $(document).ready(function(){
    });
    $("#carousel4").owlCarousel({
       items:3,
-      margin:50,
-      loop:true,
+      margin:10,
       nav:true,
+      loop: true,
       navText: ["<i class='fas fa-chevron-left'>", "<i class='fas fa-chevron-right'>"],
       navClass: ["owl-prev", "owl-next"],
       navSpeed: 300,
@@ -46,6 +46,29 @@ $(document).ready(function(){
   });
  });
 
+ //ПЛАВНОЕ ПЕРЕМЕЩЕНИЕ К ЯКОРЯМ
+
+/*  function slowScroll(id) {
+   var offset = 0;
+   $('html, body').animate({
+      scrollTop: $(id).offset().top - offset
+   }, 1000);
+   return false;
+} */
+
+
+$(document).ready(function(){
+   $('.header-block__nav, .nav__list--footer-column').on("click","a", function (event) {
+       //отменяем стандартную обработку нажатия по ссылке
+       event.preventDefault();
+       //забираем идентификатор с атрибута href
+       var id  = $(this).attr('href'),
+       //узнаем высоту от начала страницы до блока на который ссылается якорь
+       top = $(id).position().top;
+       //анимируем переход на расстояние
+       $('body,html').animate({scrollTop: top}, 1000);
+   });
+});
  
 
  

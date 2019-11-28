@@ -258,27 +258,57 @@ ul li {
   margin-bottom: 39px;
 }
 
-.btn {
+.btn,
+.block-snacks-item__btn {
+  position: relative;
   display: inline-block;
   width: 165px;
   height: 46px;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 700;
+  color: #ffffff;
   line-height: 26px;
   background-color: #c59d5f;
   text-align: center;
   line-height: 46px;
-  text-transform: uppercase;
   cursor: pointer;
   -webkit-transition: .2s;
   transition: .2s;
 }
 
-.btn:hover {
+.btn span,
+.block-snacks-item__btn span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 5;
+}
+
+.btn:after,
+.block-snacks-item__btn:after {
+  content: '';
+  width: 0;
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  top: 0;
   background-color: #94774a;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn:hover:after,
+.block-snacks-item__btn:hover:after {
+  -webkit-transition: .3s;
+  transition: .3s;
+  left: 0;
+  width: 100%;
+}
+
+.btn .fas,
+.block-snacks-item__btn .fas {
+  position: relative;
+  z-index: 5;
 }
 
 .fa-check {
@@ -736,12 +766,6 @@ ul li {
   line-height: 46px;
   text-transform: uppercase;
   cursor: pointer;
-  -webkit-transition: .2s;
-  transition: .2s;
-}
-
-.block-snacks-item__btn:hover {
-  background-color: #94774a;
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -1307,7 +1331,7 @@ textarea {
 }
 
 .soc-link:hover {
-  color: #94774a;
+  color: #c59d5f;
   -webkit-transition: .2s;
   transition: .2s;
 }
