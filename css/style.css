@@ -1085,6 +1085,7 @@ textarea {
 
 .inner-block__sum p,
 .inner-block__sum span p {
+  color: #c59d5f;
   font-size: 24px;
   display: inline-block;
   text-transform: none;
