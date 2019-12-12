@@ -3,21 +3,35 @@
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<link rel="shortcut icon" href="favicon.png" type="image/png">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
 		<link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
-		<link rel="stylesheet" href="/css/scroll/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="css/scroll/jquery.mCustomScrollbar.min.css">
 		<link rel="stylesheet" href="css/null.css">
+		<link rel="stylesheet" href="css/hamburgers.css">
 		<link rel="stylesheet" href="fonts/fonts.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
 		<title>Пицца на дом</title>
 </head>
 <body>
-	<header>
+
+	<!-- Мобильное меню -->
+	<div class="mob-menu">
+		<nav class="header-block__nav nav">
+			<ul class="nav__list">
+				<li><a href="#pizza" class="nav__item nav__item-mob"><span class="nav__arrow"><i class="fas fa-chevron-right fa-chevron-right--nav"></i></span>Выбрать пиццу</a></li>
+				<li><a href="#snacks" class="nav__item nav__item-mob"><span class="nav__arrow"><i class="fas fa-chevron-right fa-chevron-right--nav"></i></span>Выбрать закуску</a></li>
+				<li><a href="#drinks" class="nav__item nav__item-mob"><span class="nav__arrow"><i class="fas fa-chevron-right fa-chevron-right--nav"></i></span>Выбрать напитки</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<header class="parallax-window" data-parallax="scroll" data-image-src="img/header/bg.jpg">
 		<div class="header-block" id="up">
 			<div class="container">
 				<div class="header-block__main">
@@ -33,6 +47,11 @@
 					<div class="block-phone">
 						<div class="block-phone__text">Заказать по телефону:</div>
 						<a href="tel:+7495923-35-74" class="block-phone__phone"><i class="fas fa-phone"></i>+7 (495) <span>923-35-74</span></a>
+					</div>
+					<div class="hamburger hamburger--spin">
+						<div class="hamburger-box">
+						  <div class="hamburger-inner"></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -212,7 +231,7 @@
 				<div class="pizza-block-nav pizza-block-nav-right"><i class='fas fa-chevron-right pizza-block-nav__arrow-right'></i></div> -->
 			</div>
 		</section>
-		<section class="section-snacks" id="snacks">
+		<section class="section-snacks parallax-window" id="snacks" data-parallax="scroll" data-image-src="img/snacks/bg.jpg">
 			<div class="arrows-down"><i class="fas fa-angle-double-down"></i></div>
 				<div class="container block-snacks">
 					<h2 class="section-title section-title--white">Выбрать закуски</h2>
@@ -472,11 +491,12 @@
 			</div>
 		</footer>
 	</main>
-	
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/hamburgers.js"></script>
+	<script src="js/parallax.min.js"></script>
 </body>
 </html>

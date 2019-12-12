@@ -6,13 +6,36 @@ $wh: #fff
 *
    font-family: "Raleway", sans-serif
    font-size: 16px
+.scroll
+	overflow: hidden
+.display
+   display: block!important
 body
    background-color: #f4f4f4
 .container
    width: 1140px
    margin: 0 auto
 
+/* Мобильное меню */
+.mob-menu
+   display: none
+   position: absolute
+   width: 100vw
+   height: 100vh
+   top: 80px
+   background-color: rgba(0,0,0, .98)
+   z-index: 50
+   padding: 80px 0 0 150px
+   text-align: center
+.mob-menu .nav__list
+   flex-direction: column
+   align-items: flex-start
+   & .nav__item
+         font-size: 19px
+         margin-bottom: 40px
 /* HEADER */
+.hamburger
+   display: none
 .logo
    display: flex
    width: 130px
@@ -52,7 +75,7 @@ header
    left: 0
    width: 100vw
    height: 860px
-   background: url('../img/header/bg.jpg') no-repeat center center / cover
+   /* background: url('../img/header/bg.jpg') no-repeat center center / cover */
 .header-block
    width: 100vw
    height: 120px
@@ -170,6 +193,8 @@ ul li
    font-weight: 400
    line-height: 26px
    margin-bottom: 39px
+.right-col
+      width: 100%
 .btn,
 .block-snacks-item__btn
    position: relative
@@ -440,7 +465,7 @@ ul li
 .section-snacks
    position: relative
    height: 875px
-   background: url('../img/snacks/bg.jpg') no-repeat center center / cover 
+   /* background: url('../img/snacks/bg.jpg') no-repeat center center / cover */
 .block-snacks
    text-align: center
    padding: 81px 0 0 0
@@ -538,6 +563,7 @@ ul li
 
 /* DOTS block-snacks */
 .block-snacks .owl-dots
+   text-align: center
    margin-top: 250px
 .block-snacks .owl-dots .owl-dot.active
    background-color: $gl
@@ -826,7 +852,7 @@ textarea
    align-items: flex-start
    margin: 20px 0 28px 0
 .nav__item--footer
-   margin-bottom: 15px
+   margin: 0 0 15px 0
 .btn--footer
    width: 180px
 .inst-block__imgs
