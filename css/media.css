@@ -293,5 +293,189 @@
   }
 }
 
-/* @media screen and (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 560px;
+  }
+  header {
+    height: 800px;
+  }
+  .offer-main-block {
+    width: 560px;
+    margin-left: -280px;
+  }
+  .offer-block {
+    width: 560px;
+  }
+  .offer-block__item {
+    width: 560px;
+    height: 480px;
+  }
+  .right-col__pizza-img {
+    height: 300px;
+    top: 125px;
+  }
+  .left-col__title {
+    font-size: 38px;
+  }
+  .block-pizza {
+    overflow: visible;
+    height: 975px;
+  }
+  .block-pizza-carousel {
+    width: 560px;
+  }
+  .block-pizza-item__price {
+    width: 125px;
+  }
+  .block-pizza-item {
+    width: 275px;
+  }
+  .block-pizza-item__opt {
+    margin-left: 0;
+  }
+  .block-pizza-item__diam2 {
+    margin-right: 12px;
+  }
+  .block-pizza .owl-dots {
+    width: 560px;
+    margin-top: 55px;
+  }
+  .block-pizza-item__block-img {
+    width: 250px;
+  }
+  .pizza-block-nav-right,
+  .pizza-block-nav-left {
+    display: none;
+  }
+  .block-snacks-carousel {
+    width: 560px;
+  }
+  .section-desc {
+    width: 560px;
+    font-size: 17px;
+  }
+  .block-snacks .owl-dots {
+    margin-top: 60px;
+  }
+  .block-drinks-carousel {
+    width: 560px;
+  }
+  .block-drinks .owl-dots {
+    margin-top: 0px;
+    text-align: center;
+  }
+  .block-drinks .owl-dots .owl-dot.active {
+    background-color: #c59d5f;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  .block-drinks .owl-dots .owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #c59d5f;
+    opacity: 0.4;
+    -webkit-transition: .2s;
+    transition: .2s;
+    margin: 0 4px;
+  }
+  .addrtime-block-col {
+    width: 560px;
+  }
+  .input-size {
+    width: 275px;
+  }
+  .footer-container__block-contacts {
+    margin-left: 10px;
+  }
+  .footer-container__order-nav-block {
+    margin-left: 140px;
+  }
+  .footer-container__inst-block {
+    margin-left: 10px;
+  }
+  .footer-container__social-block {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-width: 560px) {
+  .container {
+    border: 1px solid blue;
+    width: 411px;
+  }
+  header {
+    height: 950px;
+  }
+  .block-phone__phone span {
+    font-size: 20px;
+  }
+  .offer-block__item {
+    width: 411px;
+    height: 650px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .left-col__title {
+    width: 280px;
+  }
+  .left-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-top: 250px;
+  }
+  .right-col__pizza-img {
+    top: 20px;
+    right: 63px;
+  }
+  .offer-main-block .owl-dots {
+    margin-top: 15px;
+  }
+  .block-pizza-carousel {
+    width: 411px;
+  }
+  .block-pizza .owl-dots {
+    width: 411px;
+  }
+  .block-pizza-item {
+    width: 390px;
+    padding-left: 10px;
+  }
+  .block-pizza-item__block-img {
+    width: 390px;
+  }
+  .block-pizza-item__diam2 {
+    margin-right: 25px;
+  }
+  .section-desc {
+    width: 400px;
+  }
+  .block-snacks-carousel {
+    width: 411px;
+  }
+  .block-snacks-item {
+    width: 408px;
+  }
+  .block-snacks-item__img {
+    height: 210px;
+  }
+  .block-snacks-item__circle {
+    top: -46px;
+  }
+  .block-drinks-carousel {
+    width: 411px;
+  }
+  .section-desc--black {
+    margin-bottom: 50px;
+  }
+}
 /*# sourceMappingURL=media.css.map */
