@@ -25,6 +25,10 @@ $(document).ready(function(){
       navClass: ["pizza-block-nav__arrow-left", "pizza-block-nav__arrow-right"],
       navSpeed: 500,
       responsive:{
+         0:{
+            items:1,
+            nav:false
+         },
          411:{
             items:1,
             margin:50,
@@ -51,16 +55,18 @@ $(document).ready(function(){
       navSpeed: 300,
       responsive:{
          0:{
-            items:1
+            items:1,
+            nav:false
          },
          411:{
             items:1,
             margin:0,
             nav:false
          },
-         768:{
+         560:{
             items:2,
-            margin:90
+            margin:30,
+            nav:false
          },
          1000:{
             items:3
@@ -80,7 +86,13 @@ $(document).ready(function(){
       navSpeed: 300,
       center: true,
       responsive:{
-         411:{
+         0:{
+            items:2,
+            center: false,
+            nav:false,
+            margin:-10
+         },
+         360:{
             items:2,
             center: false,
             nav:false
